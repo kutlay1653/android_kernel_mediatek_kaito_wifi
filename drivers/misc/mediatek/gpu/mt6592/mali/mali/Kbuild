@@ -105,7 +105,7 @@ mali-y += \
 
 mali-y += platform/platform.o
 mali-y += platform/platform_pmm.o
-#mali-$(CONFIG_MTK_MET) += platform/platform_met.o
+mali-$(CONFIG_MTK_MET) += platform/platform_met.o
 
 ifneq ($(MALI_PLATFORM_FILES),)
 	mali-y += $(MALI_PLATFORM_FILES:.c=.o)

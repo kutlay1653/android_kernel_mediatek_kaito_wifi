@@ -11,6 +11,7 @@
 #ifndef __MALI_KERNEL_COMMON_H__
 #define __MALI_KERNEL_COMMON_H__
 
+#include "mtk_mali_kernel.h" /*Mediatek custom routine for Mali*/
 #include "mali_osk.h"
 
 /* Make sure debug is defined when it should be */

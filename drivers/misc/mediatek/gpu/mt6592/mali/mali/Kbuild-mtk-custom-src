@@ -9,8 +9,8 @@ ccflags-y += -I$(DRIVER_DIR)/../ump_include/ump
 
 #include mtk kernel header files
 ccflags-y += \
-    -I$(MTK_PATH_PLATFORM)/core/include/mach \
-    -I$(MTK_PATH_SOURCE)/include/linux
+    -I$(srctree)/arch/arm/mach-mt6592/include/mach \
+    -I$(srctree)/include/linux
 
 
 #Add MTK custom source code
